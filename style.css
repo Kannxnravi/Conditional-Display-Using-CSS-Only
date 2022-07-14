@@ -1,0 +1,7 @@
+button{
+    display: none;
+}
+
+input:not(:placeholder-shown) + button {
+    display: block;
+}
